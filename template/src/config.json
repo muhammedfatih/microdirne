@@ -1,0 +1,10 @@
+{
+	"Port": 3000,
+	"Injections": [
+		{
+			"interfaceName": "iService",
+			"interfacePath": "./src/services/iService",
+			"implementPath": "./src/services/service"
+		}
+	]
+}

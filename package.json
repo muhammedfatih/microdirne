@@ -1,0 +1,33 @@
+{
+	"name": "microdirne",
+	"version": "0.0.1",
+	"description": "Micro service create wizard for nodejs",
+	"main": "init.js",
+	"scripts": {
+		"test": "node_modules/mocha/bin/mocha test/*",
+		"init": "node node_modules/microdirne/init.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/muhammedfatih/microdirne.git"
+	},
+	"keywords": [
+		"micro",
+		"service",
+		"creation",
+		"helper",
+		"nodejs"
+	],
+	"author": "mfatih",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/muhammedfatih/microdirne/issues"
+	},
+	"homepage": "https://github.com/muhammedfatih/microdirne#readme",
+	"dependencies": {
+		"express": "^4.16.4",
+		"fs-extra": "^7.0.1",
+		"injectbul": "0.0.3",
+		"mocha": "^6.0.2"
+	}
+}
